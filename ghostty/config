@@ -3,5 +3,3 @@ font-family="BlexMono Nerd Font Mono"
 font-size=16
 window-padding-x=8
 font-feature="-calt, -liga, -dlig"
-background-opacity=0.9
-background-blur=true
