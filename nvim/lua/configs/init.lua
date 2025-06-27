@@ -1,0 +1,5 @@
+require "configs/treesitter"
+require "configs/lualine"
+require "configs/telescope"
+require "configs/lsp"
+require "configs/servers"
