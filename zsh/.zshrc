@@ -12,6 +12,7 @@ PROMPT='%F{green}%n%f@%F{green}%m%f %F{blue}[%~]%f %F{red}${vcs_info_msg_0_}%f$ 
 
 export HISTFILE=$XDG_STATE_HOME/zsh/zsh_history
 export GHCUP_USE_XDG_DIRS=1
+export EDITOR="nvim"
 
 [ -f "/Users/irisleveilleur/.local/share/ghcup/env" ] && . "/Users/irisleveilleur/.local/share/ghcup/env" # ghcup-env
 
