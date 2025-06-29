@@ -1,5 +1,3 @@
-alias ls="gls --color --group-directories-first"
-
 autoload -U compinit; compinit -d $XDG_CACHE_HOME/zsh/compdump
 
 autoload -Uz vcs_info
@@ -17,3 +15,6 @@ export EDITOR="nvim"
 [ -f "/Users/irisleveilleur/.local/share/ghcup/env" ] && . "/Users/irisleveilleur/.local/share/ghcup/env" # ghcup-env
 
 eval "$(zoxide init zsh)"
+
+export PATH=$HOME/.config/tmux/plugins/tmux-session-wizard/bin:$PATH
+
