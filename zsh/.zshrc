@@ -1,11 +1,10 @@
-source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
-
-export EDITOR="hx"
+export EDITOR="nvim"
 
 export LESSHISTFILE="$XDG_STATE_HOME/less_history"
 export HISTFILE="$XDG_STATE_HOME/zsh_history"
 
 alias ls="gls --group-directories-first --color"
+alias vim="nvim"
 
 autoload -U compinit; compinit -d $XDG_CACHE_HOME/zsh/compdump
 
@@ -17,6 +16,3 @@ zstyle ':vcs_info:git:*' formats '[%b]'
 setopt PROMPT_SUBST
 
 PROMPT='%F{blue}[%~]%f%F{red}${vcs_info_msg_0_}%f $ '
-
-antigen bundle jeffreytse/zsh-vi-mode
-antigen apply
