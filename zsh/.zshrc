@@ -1,4 +1,6 @@
 export EDITOR="nvim"
+export LESSHISTFILE="$XDG_STATE_HOME/less_history"
+export HISTFILE="$XDG_STATE_HOME/zsh_history"
 
 alias ls="gls --group-directories-first --color"
 alias vim="nvim"

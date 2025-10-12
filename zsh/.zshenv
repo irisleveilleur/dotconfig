@@ -7,7 +7,5 @@ export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/rc"
 export COLIMA_HOME="$XDG_CONFIG_HOME/colima"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
-export LESSHISTFILE="$XDG_STATE_HOME/less_history"
-export HISTFILE="$XDG_STATE_HOME/zsh_history"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
